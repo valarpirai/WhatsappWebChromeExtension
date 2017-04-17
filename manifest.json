@@ -1,0 +1,24 @@
+{
+  "name": "Whatsapp Web Helper",
+  "version": "1.0",
+  "short_name" : "WWMH",
+  "description": "Whatsapp Messaging Helper Extension",
+    
+  "icons" : {
+    "512" : "img/icon.jpg"
+  },
+  "manifest_version": 2,
+  
+  "web_accessible_resources": [
+    "css/*"
+  ],
+  "content_scripts": [
+	{ 
+		"matches"	: ["*://10.10.3.143/*", "*://web.whatsapp.com/*"],
+    "js"    : ["js/jquery.min.js", "js/content_script.js"],
+		"css"		: ["css/custom.css"]
+	}
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; connect-src *;"
+}
