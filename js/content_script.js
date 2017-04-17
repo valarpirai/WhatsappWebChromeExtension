@@ -21,8 +21,8 @@
 	'</div><select class="form-control elm" id="no-of-times"><option>10' +
 	'</option><option>20</option><option>50</option><option>100</option><option>' +
 	'200</option><option>500</option></select>' +
-	'<a id="send" class="btn btn-outline-primary elm">Send</a>' +
-	'<a id="stop" class="btn btn-outline-warning elm">Stop</a></div></div>');
+	'<a id="send" class="bttn btn-outline-primary elm">Send</a>' +
+	'<a id="stop" class="bttn btn-outline-warning elm">Stop</a></div></div>');
 
 	$('body').append(Assistant);
 
