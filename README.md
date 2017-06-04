@@ -18,4 +18,4 @@ Whatsapp Web Helper - Chrome Extension to send repeated messages
 
 
 **Note**
-This extension code is provided without any warrenty. We are not responsible for any misuse.
+This extension code is provided without any warrenty. We are not responsible for any misuse. This repo is created for experimental purpose only.
