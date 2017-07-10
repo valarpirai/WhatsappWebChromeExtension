@@ -11,7 +11,7 @@
 
 	var NonStopMessenger=function(){function n(n){window.InputEvent=window.Event||window.InputEvent
 	var t=(new Date,new InputEvent("input",{bubbles:!0})),e=document.querySelector("div > div.input")
-	e.textContent=n,e.dispatchEvent(t),setTimeout(function(){document.querySelector(".icon.compose-btn-send").click()},200)}var t=0,e=0
+	e.textContent=n,e.dispatchEvent(t),setTimeout(function(){document.querySelector(".icon.icon-send").click()},200)}var t=0,e=0
 	this.send=function(o,i){function u(){n(o),t++,t<e&&setTimeout(u,300)}t=0,e=i,u()},this.stop=function(){e=t}},mes=new NonStopMessenger
 
 	var Assistant = $('<div id="web-assistant" class="panel panel-primary">' +
